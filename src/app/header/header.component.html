@@ -1,0 +1,23 @@
+<div  class="header">
+  <img src="./assets/img/logo.jpg" alt="Logo">
+
+  <nav>
+    <a [ngClass]="{'active': activeLink === 'aboutMe'}" (click)="setActiveLink('aboutMe')" href="#aboutMe">About Me</a>
+    <a [ngClass]="{'active': activeLink === 'skills'}" (click)="setActiveLink('skills')" href="#skills">Skills</a>
+    <a [ngClass]="{'active': activeLink === 'portfolio'}" (click)="setActiveLink('portfolio')"
+      href="#portfolio">Portfolio</a>
+  </nav>
+</div>
+
+<div (click)="openMiniMenu()">
+  <img class="display-none burger-menu" src="./assets/img/burger.png" alt="Menu">
+</div>
+
+<div id="miniMenu" #miniMenuRef class="mini-menu" [ngClass]="{'mini-menu-toggle': isMiniMenuOpen}">
+
+  <img class="close-icon" src="./assets/img/x.png" alt="Close" (click)="closeMiniMenu()">
+  <a (click)="scrollToSection('aboutMe')">About Me</a>
+  <a (click)="scrollToSection('skills')">My Skills</a>
+  <a (click)="scrollToSection('portfolio')">Portfolio</a>
+  <a (click)="scrollToSection('contact')">Contact</a>
+</div>
