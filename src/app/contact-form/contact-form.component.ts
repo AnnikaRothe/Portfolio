@@ -13,6 +13,7 @@ export class ContactFormComponent {
   @ViewChild('sendButton') sendButton!: ElementRef;
 
   isMessageSent: boolean = false;
+  isButtonExpanded: boolean = false;
 
   async sendMail() {
     console.log('Sending mail', this.myForm);
@@ -40,6 +41,9 @@ export class ContactFormComponent {
     emailField.value = '';
     messageField.value = '';
 
+    // Hier setzen wir isButtonExpanded auf true, um die Button-Animation zu starten.
+    this.isButtonExpanded = true;
+
     nameField.disabled = false;
     emailField.disabled = false;
     messageField.disabled = false;
@@ -47,6 +51,8 @@ export class ContactFormComponent {
 
     setTimeout(() => {
       this.isMessageSent = false;
-    }, 5000);
+      // Hier setzen wir isButtonExpanded zurück auf false, um die Button-Animation zu beenden.
+      this.isButtonExpanded = false;
+    }, 3000); // Die Animation dauert 3 Sekunden.
   }
 }

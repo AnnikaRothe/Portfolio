@@ -39,6 +39,10 @@ h1 {
     height: 40px;
     margin-left: 150px;
     z-index: 500;
+
+    &:hover {
+     transform: scale(1.1);
+    }
   }
 
   p {
@@ -64,7 +68,7 @@ h1 {
 .me {
   max-width: 100%;
   height: auto;
-  margin-top: 70px;
+  margin-top: 85px;
 }
 
 .purple-line {
@@ -315,7 +319,7 @@ h1 {
 
 @media screen and (max-width: 464px) {
 .me {
-  margin-top: -50px;
+  margin-top: 50px;
 }
 
 .purple-line {
@@ -340,7 +344,7 @@ h1 {
     }
   }
   h1 {
-    font-size: 45px;
+    font-size: 60px;
     margin-left: 20px;
   }
 
@@ -349,7 +353,7 @@ h1 {
   }
 
   .me {
-    margin-top: 100px;
+    margin-top: 300px;
     margin-left: -40px;
   }
 
@@ -374,10 +378,10 @@ h1 {
     }
   }
 
- 
-
   .container-right {
     margin-top: -200px;
   }
 }
+
+
 
