@@ -21,7 +21,8 @@
 
 .container {
   width: 99vw;
-  margin-top: 300px;
+  margin-top: 200px;
+  margin-bottom: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,13 +30,6 @@
   padding-left: -300px;
 }
 
-.rotated-text {
-  color: aliceblue;
-  font-size: 110px;
-  transform: rotate(+180deg);
-  writing-mode: vertical-lr;
-  z-index: 99;
-}
 
 .name {
   font-size: 130px;
@@ -64,17 +58,18 @@
   margin-top: -150px;
   width: 165px;
   height: 58px;
-  border: none;
+  border: 2px solid  #21c604;
   border-radius: 10px;
   padding: 15px 30px, 15px, 30px;
-  background-color: #21c604;
+  background-color: transparent;
   color: white;
   font-size: 25px;
   transition: transform 0.3s, background-color 0.3s;
 
   &:hover {
-    background-color: #481887;
-    transform: scale(1.2);
+
+    border: 2px solid #481887;
+    transform: scale(1.1);
     cursor: pointer;
   }
 }
@@ -111,6 +106,8 @@
 
 .icons {
   margin-right: 50px;
+  display: flex;
+  align-items: flex-end;
 
   img {
     margin-left: 20px;
@@ -125,14 +122,24 @@
   }
 }
 
-@media screen and (max-width: 1215px) {
-  .rotated-text {
-    color: aliceblue;
-    font-size: 100px;
-    transform: rotate(+180deg);
-    writing-mode: vertical-lr;
-    z-index: 99;
+.link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-bottom: -50px;
+  font-size: 30px;
+  font-weight: 500;
+  transition: transform 0.1s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    text-shadow: 0 0 20px #3fec20; /* Hier wird der Schatten nur auf den Text angewendet */
   }
+}
+
+
+@media screen and (max-width: 1215px) {
 
   .name {
     font-size: 120px;
@@ -162,9 +169,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .rotated-text {
-    font-size: 90px;
-  }
 
   .name {
     font-size: 110px;
@@ -179,10 +183,7 @@
 }
 
 @media screen and (max-width: 985px) {
-  .rotated-text {
-    font-size: 70px;
-  }
-
+ 
   .name {
     font-size: 90px;
     margin-top: 50px;
@@ -208,10 +209,8 @@
   }
 }
 
+
 @media screen and (max-width: 885px) {
-  .rotated-text {
-    font-size: 50px;
-  }
 
   .container {
     margin-top: 70px;
@@ -233,11 +232,6 @@
     display: none;
   }
 
-  .talk-button {
-    transform: scale(0.8);
-    margin-top: -70px;
-  }
-
   .purple1 {
     margin-top: 50px;
     width: 250px;
@@ -251,9 +245,6 @@
 }
 
 @media screen and (max-width: 666px) {
-  .rotated-text {
-    font-size: 40px;
-  }
 
   .name {
     font-size: 60px;
@@ -314,7 +305,7 @@
   }
 
   .container {
-    margin-left: -30px;
+   padding-left: 15px;
   }
 
   .name {
@@ -384,9 +375,6 @@
 }
 
 @media screen and (max-width: 430px) {
-  .rotated-text {
-    font-size: 35px;
-  }
 
   .container {
     margin-top: -50px;
@@ -407,18 +395,17 @@
   }
 
   .purple-line {
-    margin-top: 150px;
+    margin-top: 100px;
   }
 }
+
+
 
 @media screen and (max-width: 395px) {
   .main-container {
     margin-bottom: 100px;
   }
 
-  .rotated-text {
-    font-size: 27px;
-  }
 
   .container {
     margin-top: 20px;
@@ -436,6 +423,11 @@
     margin-right: 0px;
     padding-left: 600px;
   }
+
+  .link {
+  font-size: 25px;
+  margin-top: -50px;
+  }
 }
 
 @media screen and (max-width: 345px) {
@@ -449,14 +441,15 @@
   }
 
   .name {
-    font-size: 29px;
+    font-size: 33px;
     margin-top: 93px;
+    margin-left: 0px;
   }
 
   .job {
-    font-size: 21px;
+    font-size: 25px;
     margin-top: 35px;
     margin-right: 0px;
-    padding-left: 658px;
+    padding-left: 628px;
   }
 }

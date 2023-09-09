@@ -62,7 +62,7 @@ h1 {
   right: 50px;
   margin-top: 550px;
   width: 100vw;
-  z-index: 20;
+
 }
 
 .me {
@@ -95,7 +95,7 @@ h1 {
 
 @media screen and (max-width: 1330px) {
   .flow {
-    margin-top: 500px;
+    margin-top: 510px;
   }
 
   .me {
@@ -113,13 +113,13 @@ h1 {
   }
 }
 
-@media screen and (max-width: 1175px) {
+@media screen and (max-width: 1187px) {
   .flow {
-    margin-top: 600px;
+    margin-top: 610px;
   }
 
   .me {
-    margin-top: 270px;
+    margin-top: 280px;
   }
 }
 
@@ -208,7 +208,7 @@ h1 {
  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 805px) {
   .main-container {
     display: flex;
     justify-content: center;
@@ -344,7 +344,7 @@ h1 {
     }
   }
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 20px;
   }
 
