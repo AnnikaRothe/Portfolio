@@ -38,7 +38,10 @@
   z-index: 99;
   padding-bottom: 70px;
   margin-left: -30px;
+  -webkit-text-stroke: 1px  rgb(45, 43, 43);
+  color: #fff; 
 }
+
 
 .job {
   font-size: 95px;
@@ -46,6 +49,7 @@
   margin-left: -935px;
   z-index: 99;
   position: relative;
+  -webkit-text-stroke: 1px rgb(45, 43, 43);
 }
 
 .button-container {
@@ -54,7 +58,9 @@
   justify-content: center;
 }
 
+
 .talk-button {
+  position: relative;
   margin-top: -150px;
   width: 165px;
   height: 58px;
@@ -64,24 +70,46 @@
   background-color: transparent;
   color: white;
   font-size: 25px;
-  transition: transform 0.3s, background-color 0.3s;
+  transition: color 700ms;
+  cursor: pointer;
 
-  &:hover {
+  &::before {
+    content:''; display: inline-block;
+    position: absolute; inset: 0;
 
-    border: 2px solid #481887;
-    transform: scale(1.1);
-    cursor: pointer;
+    background:   #1a253b;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    z-index: -1;
+
+    transition: transform 700ms;
   }
+  &:hover { border: 3px solid   #481887;}
+  &:hover::before {transform: scaleX(1);}
 }
 
 .purple1 {
   position: absolute;
   left: 0;
-  top: 0px;
+  top: 0;
   width: 500px;
   height: 800px;
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.5;
+  animation: pulse 3s linear infinite; 
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.1); 
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.1); 
+  }
 }
 
 .green {
@@ -91,7 +119,20 @@
   width: 500px;
   height: 900px;
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.5;
+  animation: pulse 5s linear infinite; 
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1.5); 
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1.5); 
+    }
+  }
 }
 
 .scroll-down {
@@ -129,12 +170,9 @@
   margin-bottom: -50px;
   font-size: 30px;
   font-weight: 500;
-  transition: transform 0.1s ease;
 
   &:hover {
-    transform: scale(1.03);
-    cursor: pointer;
-    text-shadow: 0 0 20px #3fec20; /* Hier wird der Schatten nur auf den Text angewendet */
+    text-decoration: underline;
   }
 }
 
@@ -160,11 +198,13 @@
   .purple1 {
     width: 400px;
     height: 800px;
+    animation: none;
   }
 
   .green {
     width: 400px;
     height: 1000px;
+    animation: none;
   }
 }
 
@@ -427,6 +467,10 @@
   .link {
   font-size: 25px;
   margin-top: -50px;
+  }
+
+  .purple-line {
+    margin-left: -120px;
   }
 }
 

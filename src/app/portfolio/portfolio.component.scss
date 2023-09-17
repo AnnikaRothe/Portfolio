@@ -65,10 +65,10 @@ h3 {
   img {
     max-width: 450px;
     max-height: 450px;
-    transition: transform 0.3s, border-color 0.3s; /* Add transition for smooth animation */
+    transition: transform 0.3s, border-color 0.3s; 
 
     &:hover {
-      transform: scale(1.1); /* Scale the image by 10% on hover */
+      transform: scale(1.1); 
     }
   }
 
