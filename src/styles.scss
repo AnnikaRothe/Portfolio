@@ -58,4 +58,24 @@ body {
   }
 }
 
+.base {
+  display: inline-block;
+  position: relative;
+  &:hover .content {
+    transition: translate(-50%, -110%);
+    opacity: 1;
+  }
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-30%, -120%);
+  pointer-events: none;
+  color: #fff;
+  transition: all 150ms;
+  opacity: 0;
+}
+
 

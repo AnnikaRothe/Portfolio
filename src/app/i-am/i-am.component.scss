@@ -13,6 +13,7 @@
   margin-top: 90px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 
   img {
     margin-top: 50px;
@@ -170,6 +171,7 @@
   margin-bottom: -50px;
   font-size: 30px;
   font-weight: 500;
+  cursor: pointer;
 
   &:hover {
     text-decoration: underline;
