@@ -61,10 +61,7 @@
     &:hover::after {
       width: 100%; 
     }
-  }
-  }
-
-  
+  }}
 }
 
 .display-none {
@@ -97,7 +94,6 @@
   z-index: 3000;
   }
   
-
   a {
     text-decoration: none;
     font-size: 30px;
@@ -113,7 +109,6 @@
   }
 
 
-// Keyframes to animate the sliding-in effect
 @keyframes slideIn {
   0% {
     transform: translateX(100%);
@@ -124,14 +119,11 @@
   }
 }
 
-
-
 .mini-menu-toggle {
   display: flex;
   flex-direction: column;
   animation: slideIn 0.5s forwards;
 }
-
 
 .mini-menu-toggle a {
   margin-bottom: 10px; 

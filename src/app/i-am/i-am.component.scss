@@ -13,7 +13,6 @@
   margin-top: 90px;
   display: flex;
   align-items: center;
-  cursor: pointer;
 
   img {
     margin-top: 50px;
@@ -171,7 +170,6 @@
   margin-bottom: -50px;
   font-size: 30px;
   font-weight: 500;
-  cursor: pointer;
 
   &:hover {
     text-decoration: underline;
@@ -180,7 +178,6 @@
 
 
 @media screen and (max-width: 1215px) {
-
   .name {
     font-size: 120px;
     font-weight: bold;
@@ -211,7 +208,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-
   .name {
     font-size: 110px;
     margin-top: 30px;
@@ -225,7 +221,6 @@
 }
 
 @media screen and (max-width: 985px) {
- 
   .name {
     font-size: 90px;
     margin-top: 50px;
@@ -251,9 +246,7 @@
   }
 }
 
-
 @media screen and (max-width: 885px) {
-
   .container {
     margin-top: 70px;
   }
@@ -287,7 +280,6 @@
 }
 
 @media screen and (max-width: 666px) {
-
   .name {
     font-size: 60px;
     margin-top: 85px;
@@ -440,8 +432,6 @@
     margin-top: 100px;
   }
 }
-
-
 
 @media screen and (max-width: 395px) {
   .main-container {
