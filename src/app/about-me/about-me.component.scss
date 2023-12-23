@@ -1,7 +1,11 @@
 .main-container {
-  display: flex;
-  margin-bottom: -150px;
+position: relative;
+font-size: 17px;
+display: flex;
+width: 100vw;
+
 }
+
 
 h1 {
   margin-left: 40px;
@@ -11,27 +15,34 @@ h1 {
   white-space: nowrap;
 }
 
-.text-container {
-  position: relative;
-  z-index: 500;
-}
 
 .container-left {
-  width: 50%;
-  margin-bottom: 100px;
+  width: 50vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: -60px;
+  gap: 30px;
 
   p {
-    margin-top: -30px;
-    margin-left: 140px;
-    z-index: 200;
+    padding-left: 50px;
   }
+}
+
+.container-right {
+  width: 50vw;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
 }
 
 .info-container {
   display: flex;
   width: 90%;
-  margin-top: 50px;
-  padding-left: 0px;
+
 
   img {
     width: 40px;
@@ -51,31 +62,13 @@ h1 {
   }
 }
 
-.container-right {
-  width: 50%;
-}
-
-.flow {
-  position: absolute;
-  left: 0;
-  right: 50px;
-  margin-top: 550px;
-  width: 100vw;
-
-}
-
-.me {
-  max-width: 100%;
-  height: auto;
-  margin-top: 85px;
-}
 
 .purple-line {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  z-index: 500;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 1500px) {

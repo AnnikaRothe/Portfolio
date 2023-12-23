@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'contact-form', component: ContactFormComponent },
- 
+  
   
 ];
 

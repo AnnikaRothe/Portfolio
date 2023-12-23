@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(20, 29, 47, 0.5));
+  background: linear-gradient(to top, rgba(20, 21, 20, 0.215),  #1D1D1D);
   position: fixed;
   top: 0;
   right: 0;
@@ -10,9 +10,10 @@
   justify-content: space-between;
   align-items: center;
   z-index: 2000;
+ 
 
   img {
-    width: 100px;
+    width: 120px;
     border: 2px solid #21c604;
     border-radius: 5px;
     margin-left: 50px;
