@@ -1,5 +1,4 @@
 .main-container {
-  width: 100vw;
   display: flex;
   justify-content: center;
   padding-top: 70px;
@@ -22,18 +21,17 @@
 
 
 .container-left {
-  width: 50vw;
   margin-top: 200px;
   display: flex;
   align-items: center;
   flex-direction: column;
   color: white;
-  border: 2px solid orange;
 }
 
 .container-right {
-  width: 50vw;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -59,7 +57,6 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  border: 2px solid red;
 }
 
 
@@ -80,15 +77,12 @@
 }
 
 
-
-
-
 .flow {
   position: absolute;
   left: 0;
+ width: 100%;
   margin-top: 550px;
-  width: 100vw;
-  border-bottom: 1px solid rgb(60, 67, 58);
+
 }
 
 .me {
@@ -113,135 +107,177 @@
   }
 
   .name {
-    font-size: 70px;
+    font-size: 90px;
+  }
 
+  .job {
+    font-size: 60px;
   }
  
+  .scroll-down {
+    right: 20px;
+    top: 700px;
+  }
 }
 
 @media screen and (max-width: 1350px) {
-
   .flow {
     margin-top: 450px;
+  }
+
+  .scroll-down {
+    right: 20px;
+    top: 650px;
   }
 }
 
 
-@media screen and (max-width: 1215px) {
+@media screen and (max-width: 1300px) {
+  .flow {
+    margin-top: 430px;
+  }
+
+  .name {
+    font-size: 80px;
+  }
+
+  .job {
+    font-size: 53px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .name {
+    font-size: 70px;
+  }
+
+  .job {
+    font-size: 47px;
+    margin-top: -40px;
+  }
 
   .flow {
     margin-top: 400px;
   }
 
-
-  .job {
-    font-size: 90px;
-    margin-top: 170px;
-    margin-left: -865px;
-    z-index: 99;
-    position: relative;
-  }
-
-  .purple1 {
-    width: 400px;
-    height: 800px;
-    animation: none;
-  }
-
-  .green {
-    width: 400px;
-    height: 1000px;
-    animation: none;
+  .scroll-down {
+    top: 590px;
   }
 }
 
-@media screen and (max-width: 1100px) {
-  .name {
-    font-size: 110px;
-    margin-top: 30px;
-  }
-
-  .job {
-    font-size: 82px;
-    padding-left: 70px;
-    margin-top: 150px;
-  }
-}
-
-@media screen and (max-width: 985px) {
-
+@media screen and (max-width: 1085px) {
   .flow {
-    margin-top: 350px;
+    margin-top: 370px;
   }
   .name {
-    font-size: 90px;
-    margin-top: 50px;
-    margin-left: -10px;
+    font-size: 60px;
+  
   }
 
   .job {
-    font-size: 65px;
-    margin-top: 100px;
-    margin-right: 0px;
-    padding-left: 220px;
+    font-size: 40px;
   }
 
-  .purple1 {
-    margin-top: 100px;
-    width: 300px;
-    height: 600px;
+  .me {
+    margin-left: 100px;
   }
 
-  .green {
-    width: 300px;
-    height: 800px;
+  .button-container {
+    margin-top: 70px;
+  }
+
+  .scroll-down {
+    top: 550px;
   }
 }
 
 @media screen and (max-width: 885px) {
-  .container {
-    margin-top: 10px;
+  .container-left {
+    margin-left: 20px;
   }
 
   .name {
-    font-size: 70px;
-    margin-top: 70px;
+    font-size: 55px;
   }
 
   .job {
-    font-size: 52px;
-    margin-top: 80px;
-    margin-right: 0px;
-    padding-left: 360px;
+    font-size: 37px;
+    margin-top: -30px;
+  }
+
+
+  .flow {
+    margin-top: 320px;
+  }
+
+  .scroll-down {
+    top: 500px;
+  }
+}
+
+
+@media screen and (max-width: 855px) {
+  .container-left {
+    margin-left: 30px;
+  }
+
+  .name {
+    font-size: 60px;
+  }
+
+  .job {
+    font-size: 40px;
+  }
+
+  .me {
+    margin-left: 10px;
+  }
+}
+
+
+@media screen and (max-width: 833px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+  }
+
+  .container-left {
+    width: 100vw;
+  }
+
+  .container-right {
+    width: 100vw;
+  }
+
+  .me {
+    max-width: 50%;
+  }
+
+  .flow {
+    margin-top: 430px;
   }
 
   .scroll-down {
     display: none;
   }
-
-  .purple1 {
-    margin-top: 50px;
-    width: 250px;
-    height: 500px;
-  }
-
-  .green {
-    width: 250px;
-    height: 700px;
-  }
 }
 
+
+
 @media screen and (max-width: 666px) {
+  .main-container {
+    margin-top: -200px;
+  }
   .name {
-    font-size: 60px;
+    font-size: 65px;
     margin-top: 85px;
   }
 
   .job {
     font-size: 45px;
-    margin-top: 60px;
     margin-right: 0px;
-    padding-left: 435px;
   }
 
   .button {
@@ -250,139 +286,73 @@
     margin-top: -70px;
   }
 
-  .purple1 {
-    margin-top: 100px;
-    width: 200px;
-    height: 400px;
-  }
-
-  .green {
-    width: 200px;
-    height: 600px;
+  .flow {
+    margin-top: 380px;
   }
 }
 
 @media screen and (max-width: 580px) {
-  .rotated-text {
-    font-size: 40px;
-  }
-
   .name {
-    font-size: 55px;
+    font-size: 60px;
     margin-top: 87px;
   }
 
   .job {
     font-size: 40px;
-    margin-top: 50px;
     margin-right: 0px;
-    padding-left: 470px;
   }
 
-  .purple-line {
-    transform: scale(0.9);
-    margin-left: -70px;
+  .flow {
+    margin-top: 360px;
   }
 }
 
 @media screen and (max-width: 555px) {
-  .rotated-text {
-    font-size: 40px;
-  }
-
-  .container {
-    margin-top: -100px;
-   padding-left: 15px;
-  }
-
   .name {
     font-size: 50px;
     margin-top: 85px;
   }
 
   .job {
-    font-size: 37px;
-    margin-top: 45px;
-    margin-right: 0px;
-    padding-left: 505px;
+    font-size: 35px;
+  }
+  
+  .button-container {
+    transform: scale(80%);
   }
 
-  .purple-line {
-    margin-top: 50px;
-  }
-
-  .purple1 {
-    margin-top: 70px;
-    width: 150px;
-    height: 400px;
-  }
-
-  .green {
-    width: 150px;
-    height: 600px;
+  .flow {
+    margin-top: 340px;
   }
 }
 
+
 @media screen and (max-width: 490px) {
-  .rotated-text {
-    font-size: 40px;
-  }
-
-  .container {
-    margin-top: -150px;
-    margin-left: -20px;
-  }
-
   .name {
-    font-size: 48px;
+    font-size: 50px;
     margin-top: 80px;
   }
 
   .job {
     font-size: 35px;
-    margin-top: 65px;
-    margin-right: 0px;
-    padding-left: 520px;
   }
 
-  .purple-line {
-    margin-top: 50px;
+  .container-left {
+    margin-left: -20px;
   }
 
-  .purple1 {
-    margin-top: 50px;
-    width: 150px;
-    height: 400px;
-  }
-
-  .green {
-    width: 150px;
-    height: 500px;
+  .flow {
+    margin-top: 300px;
   }
 }
 
 @media screen and (max-width: 430px) {
-
-  .container {
-    margin-top: -150px;
-    margin-left: -15px;
-  }
-
   .name {
     font-size: 43px;
-    margin-top: 85px;
-    margin-left: -5px;
   }
 
   .job {
-    font-size: 32px;
-    margin-top: 60px;
-    margin-right: 0px;
-    padding-left: 555px;
-  }
-
-  .purple-line {
-    margin-top: 100px;
+    font-size: 30px;
   }
 
   .button-container {
@@ -391,60 +361,40 @@
    align-items: center;
    margin-bottom: -100px;
   }
+
+  .flow {
+    margin-top: 280px;
+  }
 }
+
 
 @media screen and (max-width: 395px) {
   .main-container {
     margin-bottom: 100px;
   }
 
-  .container {
-    margin-top: -150px;
-    margin-left: -15px;
+  .flow {
+    margin-top: 260px;
   }
-
- 
-
-  .link {
-  font-size: 25px;
-  margin-top: -50px;
-  }
-
-  .purple-line {
-    margin-left: -120px;
-  }
-
-
 }
 
 @media screen and (max-width: 345px) {
-  .rotated-text {
-    font-size: 23px;
-  }
-
-  .container {
-    margin-top: -200px;
-    margin-left: -15px;
-  }
-
   .name {
-    font-size: 33px;
+    font-size: 35px;
     margin-top: 93px;
     margin-left: 0px;
   }
 
   .job {
-    font-size: 25px;
-    margin-top: 35px;
-    margin-right: 0px;
-    padding-left: 628px;
+    font-size: 23px;
   }
 
+  .flow {
+    margin-top: 240px;
+  }
 
-
-
-
-
-
-  
+  .button-container {
+    transform: scale(65%);
+    margin-top: 10px;
+  }
 }
