@@ -1,3 +1,8 @@
+.main-container {
+  margin-top: 100px;
+}
+
+
 h1 {
   padding-left: 40px;
   margin-top: 90px;
@@ -24,7 +29,6 @@ h3 {
 
 
 .purple-line {
-  margin-top: 100px;
   display: flex;
   align-items: center;
   background-color: #1D1D1D;
@@ -36,11 +40,11 @@ h3 {
   display: flex;
   background-color: #1D1D1D;
   padding: 20px;
-  border: 2px solid green;
+  gap: 70px;
 
   img {
-    max-height: 450px;
-    max-width: 450px;
+    max-height: 400px;
+    max-width: 370px;
     transition: transform 0.3s, border-color 0.3s; 
 
     &:hover {
@@ -50,17 +54,13 @@ h3 {
 
   .portfolio-img-container{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     width: 45%;
-    border: 2px solid red;
-  
   }
 
   .portfolio-text-container {
-    margin-left: 150px;
     font-size: 17px;
-    border: 2px solid purple;
     width: 55%;
   }
 }
@@ -71,12 +71,12 @@ h3 {
   background-color: #1D1D1D;
   border-bottom: 1px solid rgb(60, 67, 58);
   padding: 20px;
-  border: 2px solid green;
+  gap: 70px;
   
 
   img {
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 370px;
     transition: transform 0.3s, border-color 0.3s; 
 
     &:hover {
@@ -86,33 +86,24 @@ h3 {
 
   .portfolio-img-container{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width: 45%;
-    border: 2px solid red;
-   
   }
 
   .portfolio-text-container {
-    margin-right: 150px;
-    margin-bottom: 150px;
+   
     text-align: end;
     font-size: 17px;
     width: 55%;
-   border: 2px solid purple;
-
-   
   }
 }
 
 .parallax-container {
   background-color: transparent;
-  border: 1px solid rgb(60, 67, 58);
-  height: 15px;
-}
-
-.button-container {
-  border: 2px solid orange;
+  height: 7px;
+  border-top: 1px solid rgb(60, 67, 58);
+  border-bottom: 1px solid rgb(60, 67, 58);
 }
 
 
@@ -152,126 +143,7 @@ h3 {
 
 
 
-@media screen and (max-width: 1300px) {
-  .portfolio-container1 {
-   
-    
 
-    .portfolio-text-container {
-      margin-left: 200px;
-    }
-  }
-  .portfolio-container2 {
-  
-   
-
-    .portfolio-text-container {
-      margin-left: 50px;
-    }
-  }
-}
-
-
-@media screen and (max-width: 1170px) {
-  .portfolio-container1 {
- 
-    
-
-    .button-test {
-      width: 133px;
-      height: 58px;
-      font-size: 23px;
-      margin-right: 50px;
-    }
-
-    .button-transparent {
-      background-color: transparent;
-      width: 133px;
-      height: 58px;
-      font-size: 23px;
-    }
-  }
-
-  .portfolio-container2 {
-  
-
-  
-
-    
-
-    .button-test {
-      width: 133px;
-      height: 58px;
-      font-size: 23px;
-      margin-right: 50px;
-    }
-
-    .button-transparent {
-      background-color: transparent;
-      width: 133px;
-      height: 58px;
-      font-size: 23px;
-    }
-  }
-}
-
-@media screen and (max-width: 1060px) {
-  .portfolio-container1 {
-  
-
-    .button-test {
-      width: 125px;
-      height: 58px;
-      font-size: 23px;
-      margin-right: 50px;
-    }
-
-    .button-transparent {
-      background-color: transparent;
-      width: 125px;
-      height: 58px;
-      font-size: 23px;
-    }
-
-    
-  }
-
-  .portfolio-container2 {
-  
-   
-
-    .button-test {
-      width: 125px;
-      height: 58px;
-      font-size: 23px;
-      margin-right: 50px;
-    }
-
-    .button-transparent {
-      background-color: transparent;
-      width: 125px;
-      height: 58px;
-      font-size: 23px;
-    }
-
-    .portfolio-text-container {
-      width: 50vw;
-     
-    }
-  }
-}
-
-@media screen and (max-width: 960px) {
-  
-
-  .button-container {
-    display: flex;
-  }
-
-  .button-transparent {
-    margin-top: 20px;
-  }
-}
 
 @media screen and (max-width: 930px) {
   .portfolio-container1 {
@@ -279,6 +151,7 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 30px;
   
     img {
      
@@ -288,20 +161,20 @@ h3 {
     .portfolio-text-container {
       
       margin-left: 0;
-      margin-bottom: 150px;
       text-align: center;
       font-size: 17px;
       width: 90%;
      
     }
   }
+
   .portfolio-container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
     margin-left: 0px;
- 
+    gap: 30px;
    
 
     img {
@@ -310,7 +183,7 @@ h3 {
     }
 
     .portfolio-text-container {
-      margin-top: 50px;
+    
       margin-right: 0px;
       margin-left: 20px;
       text-align: center;
@@ -321,7 +194,7 @@ h3 {
 
   h1 {
     padding-left: 20px;
-    margin-top: 90px;
+    margin-top: 50px;
     font-size: 80px;
   }
 
@@ -351,6 +224,7 @@ h3 {
   .button-container {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
   }
 }
 
@@ -375,38 +249,21 @@ h3 {
   .button-transparent {
     transform: scale(0.8);
   }
-
- 
-
-  
 }
 
-@media screen and (max-width: 470px) {
-
-  .portfolio-container1 {
-    margin-top: -100px;
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 47px;
   }
-
-  .portfolio-container2 {
-    margin-top: -130px;
-  }
+ 
   .purple-line {
-    transform: scale(0.8);
-    margin-left: -20px;
-    margin-top: -70px;
-
+   
     img {
-      width: 60px;
-      height: 4px;
-      margin-left: -35px;
-
+      width: 70px;
     }
   }
 
-  .p-portfolio {
-    margin-left: 50px;
   }
-}
 
 @media screen and (max-width: 400px) {
   h1 {
@@ -430,25 +287,45 @@ h3 {
   }
 
   .portfolio-container2 {
-    transform: scale(0.8);
+  
     margin-right: 0px;
-    margin-bottom: -200px;
+  
 
     .portfolio-text-container {
-      width: 90vw;
+      width: 90%;
     }
 
     img {
       margin-left: 20px;
+      max-width: 270px;
+      max-height: 270px;
     }
   }
 
   .portfolio-container1 {
-    transform: scale(0.8);
-    margin-left: -0px;
-    margin-bottom: -200px;
+   
+    margin-left: 0px;
+  
     .portfolio-text-container {
-      width: 90vw;
+      width: 90%;
     }
+
+    img {
+     
+      max-width: 270px;
+      max-height: 270px;
+    }
+  }
+
+  .purple-line {
+   
+    img {
+      width: 50px;
+    }
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-top: 30px;
   }
 }

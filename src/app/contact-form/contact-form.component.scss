@@ -1,7 +1,7 @@
 
 .input-field {
   background-color: transparent;
-  width: 90%;
+  width: 100%;
   margin-bottom: 20px;
   border: 1px solid #70e61c;
   border-radius: 5px;
@@ -18,16 +18,16 @@
   display: flex;
   justify-content: center;
   margin-right: 40px;
-  width: 90%;
+  width: 100%;
 }
 
 button {
   width: 170px;
-  margin-bottom: 100px;
   height: 58px;
   border: none;
   border-radius: 10px;
   padding: 15px 30px, 15px, 30px;
+  margin-bottom: 20px;
   background-color: #21c604;
   color: #fff;
   font-size: 130%;
@@ -46,37 +46,17 @@ button {
 
 
 .form-container {
-  width: 90%;
+  width: 100%;
 }
 
-@media screen and (max-width: 900px) {
-  .form-container {
-    margin-left: -20px;
-    width: 100%;
-  }
 
-  .text-container {
-    width: 300px;
-  }
-}
 
 @media screen and (max-width: 800px) {
-  .input-field {
-    background-color: transparent;
-    width: 80vw;
-    margin-bottom: 20px;
-    border: 1px solid #70e61c;
-    border-radius: 5px;
-    margin-left: 0px;
-  }
 
-.button-container {
-  width: 85%;
-}
 
-  .form-container {
-    margin-left: 50px;
-  }
+
+
+ 
 
   .img-go-up {
     position: absolute;
@@ -92,12 +72,10 @@ button {
     margin-bottom: 20px;
     border: 1px solid #70e61c;
     border-radius: 5px;
-    margin-left: 40px;
+
   }
 
- button {
-  margin-left: 70px;
- }
+
 
   .form-container {
     margin-left: 0px;
@@ -111,18 +89,13 @@ button {
 }
 
 @media screen and (max-width: 430px) {
-  .input-field {
-    width: 93%;
-    margin-left: 10px;
-  }
+
 
   h2 {
     margin-right: 20px;
   }
 
-  .button-container {
-    width: 75%;
-  }
+
   .go-up {
     margin-top: -50px;
     margin-left: 30px;
