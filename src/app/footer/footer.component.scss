@@ -2,7 +2,6 @@
   position: absolute;
   left: 0;
   right: 0;
-
   min-height: 200px;
   border-top: 1px solid #70e61c;
   display: flex;
@@ -42,7 +41,6 @@
       color: #21c604;
       text-decoration: 2px underline #9747ff;
     }
-  
   }
 }
 
@@ -65,20 +63,17 @@
 
 @media screen and (max-width: 800px) {
   .footer {
-   
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
   
-
     p {
       font-size: 15px;
     }
   }
 
   .logo {
-   
     margin-top: 15px;
   }
 

@@ -1,30 +1,13 @@
 html {
   scroll-behavior: smooth;
-  
 }
 
 body {
-
   font-family: monospace;
   margin: 0;
   color: #fff;
   background-color: #1D1D1D;
 }
-
-
-.neon-green {
-  color: #70e61c;
-}
-
-.light-blue {
-  color: #1cdae6;
-}
-
-.purple {
-  color: rgb(72, 11, 108);
-}
-
-
 
 .button {
   margin-top: -150px;
@@ -43,26 +26,6 @@ body {
     background-color: #481887;
     transform: scale(1.1);
   }
-}
-
-.base {
-  display: inline-block;
-  position: relative;
-  &:hover .content {
-    transition: translate(-50%, -110%);
-    opacity: 1;
-  }
-}
-
-.content {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-30%, -120%);
-  pointer-events: none;
-  color: #fff;
-  transition: all 150ms;
-  opacity: 0;
 }
 
 

@@ -1,9 +1,9 @@
 .main-container {
-  margin: 0 auto; 
   margin-top: 100px;
   background-color: #1D1D1D;
   border-top: 1px solid rgb(60, 67, 58);
   border-bottom: 1px solid rgb(60, 67, 58);
+  padding: 20px;
 }
 
 .container-up {
@@ -15,7 +15,7 @@
 .green-line {
   display: flex;
   align-items: center;
-
+  margin-right: -20px;
 }
 
 h1 {
@@ -41,10 +41,11 @@ h1 {
   flex-direction: column;
 }
 
-.purple-line-small {
+.green-line-small {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  margin-left: -20px;
 
   img {
     margin-right: 30px;
@@ -53,15 +54,10 @@ h1 {
   }
 
   h2 {
-    margin-top: -30px;
+    margin-top: -25px;
     font-size: 40px;
     white-space: nowrap;
   }
-}
-
-h1 {
-  font-size: 90px;
-  font-weight: bold;
 }
 
 .span-container {
@@ -77,36 +73,10 @@ h1 {
   width: 100%;
 }
 
-.go-up {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 100px;
-  margin-top: 0px;
-  border: 2px solid red;
-}
-
-.img-go-up {
-  border-radius: 50px;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #21c604;
-  }
-}
-
-
 
 @media screen and (max-width: 1285px) {
-
-
   .container-up {
     margin-bottom: -50px;
-  }
-
-  .img-go-up {
-    margin-top: 30px;
-    margin-bottom: 100px;
-    border-radius: 50px;
   }
 
   .container-down {
@@ -115,7 +85,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     gap: 50px;
-    transform: scale(0.9);
+   
   }
 
   h2 {
@@ -123,7 +93,7 @@ h1 {
     font-size: 10px;
   }
 
-  .purple-line-small {
+  .green-line-small {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -134,7 +104,7 @@ h1 {
       width: 50px;
       height: 4px;
       margin-right: 20px;
-      margin-left: -50px;
+    
     }
   }
 
@@ -149,9 +119,7 @@ h1 {
   }
 
   .span-container {
-    width: 100vw;
-    margin-left: 0px;
-    font-size: larger;
+    margin-left: 50px;
   }
 
   .purple-line-small img {
@@ -174,32 +142,29 @@ h1 {
   }
 }
 
-
-
 @media screen and (max-width: 730px) {
   .green-line {
     display: flex;
     align-items: center;
 
     img {
-    
-      width: 150px;
+      width: 120px;
       height: 4px;
     }
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .purple-line-small img {
+@media screen and (max-width: 550px) {
+  .green-line-small img {
     display: none;
   }
 
-  .go-up {
-    margin-right: 50px;
+  .span-container {
+    margin-left: 0
   }
 
   .green-line {
@@ -215,11 +180,16 @@ h1 {
   h1 {
     font-size: 55px;
   }
+
+  h2 {
+    margin-left: 20px;
+    font-size: 30px !important;
+  }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
   .problem-container {
-    transform: scale(0.80);
+    transform: scale(0.85);
   }
 
   .green-line {
@@ -237,10 +207,8 @@ h1 {
   }
 }
 
-
-
-@media screen and (max-width: 380px) {
-  .purple-line-small {
+@media screen and (max-width: 414px) {
+  .green-line-small {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -254,14 +222,8 @@ h1 {
     display: none;
   }
 
- 
-
-  .img-go-up {
-    margin-right: -50px;
-  }
-
   .problem-container {
-    transform: scale(0.75);
+    transform: scale(0.85);
 
     h2 {
       font-size: 35px;
@@ -269,8 +231,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 360px) {
-
+@media screen and (max-width: 365px) {
   h1 {
     margin-right: -20px;
     font-size: 50px;
@@ -278,9 +239,10 @@ h1 {
 
   .problem-container {
     margin-left: -30px;
+    transform: scale(0.80);
 
     h2 {
-      font-size: 35px;
+      font-size: 30px;
     }
   }
 }

@@ -2,22 +2,16 @@
   margin-top: 100px;
 }
 
-
 h1 {
-  padding-left: 40px;
-  margin-top: 90px;
   font-size: 90px;
   font-weight: bold;
-  z-index: 500;
 }
-
 
 h2 {
   color: #9747ff;
   font-weight: bold;
   font-size: 40px;
 }
-
 
 h3 {
   color: #70e61c;
@@ -27,14 +21,13 @@ h3 {
   font-weight: lighter;
 }
 
-
 .purple-line {
   display: flex;
   align-items: center;
   background-color: #1D1D1D;
   border-top: 1px solid rgb(60, 67, 58);
+  padding-left: 20px;
 }
-
 
 .portfolio-container1 {
   display: flex;
@@ -65,7 +58,6 @@ h3 {
   }
 }
 
-
 .portfolio-container2 {
   display: flex;
   background-color: #1D1D1D;
@@ -73,7 +65,6 @@ h3 {
   padding: 20px;
   gap: 70px;
   
-
   img {
     max-width: 400px;
     max-height: 370px;
@@ -92,7 +83,6 @@ h3 {
   }
 
   .portfolio-text-container {
-   
     text-align: end;
     font-size: 17px;
     width: 55%;
@@ -105,7 +95,6 @@ h3 {
   border-top: 1px solid rgb(60, 67, 58);
   border-bottom: 1px solid rgb(60, 67, 58);
 }
-
 
 .button-test {
   width: 165px;
@@ -142,9 +131,6 @@ h3 {
 }
 
 
-
-
-
 @media screen and (max-width: 930px) {
   .portfolio-container1 {
     display: flex;
@@ -154,17 +140,14 @@ h3 {
     gap: 30px;
   
     img {
-     
       max-width: 350px;
     }
 
     .portfolio-text-container {
-      
       margin-left: 0;
       text-align: center;
       font-size: 17px;
       width: 90%;
-     
     }
   }
 
@@ -176,26 +159,16 @@ h3 {
     margin-left: 0px;
     gap: 30px;
    
-
     img {
-
       max-width: 350px;
     }
 
     .portfolio-text-container {
-    
       margin-right: 0px;
-      margin-left: 20px;
       text-align: center;
       font-size: 17px;
       width: 90%;
     }
-  }
-
-  h1 {
-    padding-left: 20px;
-    margin-top: 50px;
-    font-size: 80px;
   }
 
   h3 {
@@ -228,13 +201,7 @@ h3 {
   }
 }
 
-
 @media screen and (max-width: 600px) {
-  h1 {
-    padding-left: 20px;
-    font-size: 70px;
-  }
-
   .p-portfolio {
     margin-top: -50px;
     padding-right: 30px;
@@ -253,7 +220,7 @@ h3 {
 
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 47px;
+    font-size: 70px;
   }
  
   .purple-line {
@@ -262,13 +229,9 @@ h3 {
       width: 70px;
     }
   }
-
   }
 
 @media screen and (max-width: 400px) {
-  h1 {
-    margin-top: 50px;
-  }
   .p-portfolio {
     margin-top: -20px;
     margin-left: 60px;
@@ -287,10 +250,8 @@ h3 {
   }
 
   .portfolio-container2 {
-  
     margin-right: 0px;
   
-
     .portfolio-text-container {
       width: 90%;
     }
@@ -303,7 +264,6 @@ h3 {
   }
 
   .portfolio-container1 {
-   
     margin-left: 0px;
   
     .portfolio-text-container {
@@ -311,21 +271,12 @@ h3 {
     }
 
     img {
-     
       max-width: 270px;
       max-height: 270px;
     }
   }
 
-  .purple-line {
-   
-    img {
-      width: 50px;
-    }
-  }
-
   h1 {
-    font-size: 40px;
-    margin-top: 30px;
+    font-size: 55px;
   }
 }
