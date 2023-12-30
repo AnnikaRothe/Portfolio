@@ -29,11 +29,6 @@ h1 {
   justify-content: space-between;
 }
 
-.text-container {
-  display: flex;
-  align-items: flex-start;
-}
-
 .problem-container {
   width: 80%;
   display: flex;
@@ -62,7 +57,7 @@ h1 {
 
 .span-container {
   width: 80%;
-  margin-left: 100px;
+  margin-left: 80px;
   font-size: 17px;
 }
 
@@ -108,10 +103,6 @@ h1 {
     }
   }
 
-  .text-container {
-    display: flex;
-    justify-content: flex-start;
-  }
 
   .problem-container {
     width: 87vw;

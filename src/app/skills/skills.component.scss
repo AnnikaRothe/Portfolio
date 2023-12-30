@@ -37,7 +37,6 @@
 
 .container-right {
   width: 60%;
-  z-index: 30;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -58,7 +57,6 @@ h1 {
   margin-top: 90px;
   font-size: 90px;
   font-weight: bold;
-  z-index: 500;
   white-space: nowrap;
 }
 

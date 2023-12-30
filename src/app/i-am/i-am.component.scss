@@ -209,9 +209,10 @@
    }
 }
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 870px) {
   .container-left {
     margin-left: 30px;
+    margin-top: 100px;
   }
 
   .name {
@@ -233,7 +234,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -100px;
+    margin-top: 30px;
   }
 
   .me {
@@ -251,7 +252,7 @@
 
 @media screen and (max-width: 666px) {
   .main-container {
-    margin-top: -200px;
+    margin-top: -70px;
   }
 
   .name {

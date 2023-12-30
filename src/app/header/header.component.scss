@@ -22,13 +22,51 @@
   }
 
   nav {
-    width: 426px;
     display: flex;
     justify-content: space-between;
     gap: 28px;
     padding-right: 50px;
-
+  
     a {
+      color: #fff;
+      font-size: 23px;
+      font-weight: 400;
+      text-decoration: none;
+      gap: 29px;
+      cursor: pointer;
+      position: relative;
+  
+      &:not(.exclude-hover):hover {
+        color: #21c604;
+      }
+  
+      &.active {
+        color: #21c604;
+      }
+  
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background: linear-gradient(to right, #9747ff 0%, #21c604 100%);
+        transition: width 0.3s ease;
+      }
+  
+      &:not(.exclude-hover):hover::after {
+        width: 100%;
+      }
+    }
+  }
+  
+}
+
+.language-container {
+  margin-left: 20px;
+
+  a {
     color: #fff;
     font-size: 23px;
     font-weight: 400;
@@ -36,31 +74,17 @@
     gap: 29px;
     cursor: pointer;
     position: relative;
-  
+
     &:hover {
-      color: #21c604;
+      color: #21c604 !important;
     }
+
   
-    &.active {
-      color: #21c604;
-    }
-  
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: -5px;
-      left: 0;
-      width: 0;
-      height: 3px;
-      background: linear-gradient(to right, #9747ff 0%, #21c604 100%);
-      transition: width 0.3s ease; 
-    }
-  
-    &:hover::after {
-      width: 100%; 
-    }
   }
- }
+}
+
+.span-container {
+  font-size: 22px;
 }
 
 .display-none {
@@ -128,19 +152,18 @@
 }
 
 
-@media screen and (max-width: 833px) {
+@media screen and (max-width: 870px) {
   .display-none {
     display: flex;
   }
 
+   .display-flex {
+    display: none;
+   }
+
   .header {
     a {
       display: none;
-    }
-    img {
-      width: 80px;
-      margin-left: 20px;
-      margin-top: -20px;
-    }
   }
+ }
 }

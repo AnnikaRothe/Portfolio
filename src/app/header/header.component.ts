@@ -1,5 +1,6 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -10,15 +11,16 @@ export class HeaderComponent {
   activeLink: string = '';
   isMiniMenuOpen: boolean = false;
 
+
+
   @ViewChild('miniMenuRef', { static: false })
   miniMenuRef!: ElementRef;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, public translate: TranslateService) {}
 
   setActiveLink(link: string) {
     this.activeLink = link;
 
-    // Setzen Sie den activeLink nach 3 Sekunden zurück
     setTimeout(() => {
       this.activeLink = '';
     }, 2000);
@@ -50,4 +52,5 @@ export class HeaderComponent {
     }
     this.closeMiniMenu();
   }
+
 }

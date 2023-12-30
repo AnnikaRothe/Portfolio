@@ -1,11 +1,15 @@
 <div class="header">
   <a href="#i-am"><img src="./assets/img/logo.jpg" alt="Logo"></a>
-
   <nav>
-    <a [ngClass]="{'active': activeLink === 'aboutMe'}" (click)="setActiveLink('aboutMe')" href="#aboutMe">About Me</a>
-    <a [ngClass]="{'active': activeLink === 'skills'}" (click)="setActiveLink('skills')" href="#skills">Skills</a>
+    <a translate [ngClass]="{'active': activeLink === 'aboutMe'}" (click)="setActiveLink('aboutMe')" href="#aboutMe">About Me</a>
+    <a  [ngClass]="{'active': activeLink === 'skills'}" (click)="setActiveLink('skills')" href="#skills">Skills</a>
     <a [ngClass]="{'active': activeLink === 'portfolio'}" (click)="setActiveLink('portfolio')"
       href="#portfolio">Portfolio</a>
+      <a translate [ngClass]="{'active': activeLink === 'contact'}" (click)="setActiveLink('contact')" href="#contact"> <span translate>Contact</span></a>
+      <div class="language-container">
+      <a class="exclude-hover" (click)="translate.use('en');">EN</a> <span class="span-container display-flex">|</span>
+      <a class="exclude-hover" (click)="translate.use('de');">DE</a>
+    </div>
   </nav>
 </div>
 
@@ -15,8 +19,12 @@
 
 <div id="miniMenu" #miniMenuRef class="mini-menu" [ngClass]="{'mini-menu-toggle': isMiniMenuOpen}">
   <img class="close-icon" src="./assets/img/x.png" alt="Close" (click)="closeMiniMenu()">
-  <a (click)="scrollToSection('aboutMe')">About Me</a>
-  <a (click)="scrollToSection('skills')">My Skills</a>
+  <a translate (click)="scrollToSection('aboutMe')">About Me</a>
+  <a (click)="scrollToSection('skills')">Skills</a>
   <a (click)="scrollToSection('portfolio')">Portfolio</a>
-  <a (click)="scrollToSection('contact')">Contact</a>
+  <a translate (click)="scrollToSection('contact')">Contact</a>
+  <div class="language-container">
+    <a (click)="translate.use('en');">EN</a> <span class="span-container">|</span>
+    <a (click)="translate.use('de');">DE</a>
+  </div>
 </div>
