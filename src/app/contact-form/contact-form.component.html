@@ -2,10 +2,10 @@
   <form (submit)="sendMail()" ngNativeValidate #myForm>
     <input required class="input-field" style="height: 30px;" type="text" placeholder="Name" #nameField>
     <input  required class="input-field" style="height: 30px;" type="email" placeholder="Email" #emailField>
-    <textarea  required class="input-field" name="" id="" cols="30" rows="10" placeholder="Message"
+    <textarea  required class="input-field" name="" id="" cols="30" rows="10" [placeholder]="'Message' | translate"
       #messageField></textarea>
       <div class="button-container" [class.expanded]="isButtonExpanded">
-        <button #sendButton>{{ isMessageSent ? 'Message sent!' : 'Send message' | translate }}</button>
+        <button #sendButton>{{ isMessageSent ? 'Message sent!' : 'Send message' |translate }}</button>
       </div>
     </form>
   </div>

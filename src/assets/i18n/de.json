@@ -3,6 +3,7 @@
 	"During my training as a frontend developer, I independently or collaboratively crafted various projects. The daily routine of a developer was already experienced, involving regular calls, meeting deadlines, conducting code reviews, and both team and individual work. I am eager to apply these experiences as I transition into the role of a Junior Web Developer, contributing to dynamic projects and the success of a collaborative team.": "Während meiner Ausbildung als Frontend-Entwickler habe ich eigenständig oder in Zusammenarbeit an verschiedenen Projekten gearbeitet. Dabei wurde ich mit dem täglichen Ablauf eines Entwicklers vertraut, der regelmäßige Besprechungen, die Einhaltung von Fristen, Code-Reviews sowie Team- und Einzelarbeit umfasste. Diese Erfahrungen möchte ich nun als Junior Webentwickler einbringen und damit zu dynamischen Projekten und dem Erfolg eines kooperativen Teams beitragen.",
 	"This portfolio was programmed using Angular, TypeScript and SCSS.": "Für die Erstellung dieses Portfolios kamen Angular, TypeScript und SCSS zum Einsatz.",
 	"You can find more projects on my GitHub page. Many of them were for practice and therefore are not included in this portfolio.": "Auf meiner GitHub-Seite sind weitere Projekte zu finden. Viele davon dienten Übungszwecken und sind daher nicht in diesem Portfolio enthalten.",
+	"Message": "Nachricht",
 	"Send message": "Senden",
 	"Contact": "Kontakt",
 	"Want to get in touch?": "Lass uns connecten!",
@@ -12,13 +13,10 @@
 	"Privacy Policy": "Datenschutz",
 	"About Me": "Über mich",
 	"Certificate": "Zertifikat",
-	"Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.": 
-	"Aufgabenmanager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mithilfe von Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu.",
-	"A simple Jump-and-Run game based on an object-oriented approach. Help Carlos to find coins, collect bottles, jump on enemies and fight the endboss.": 
-	"Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Carlos, Münzen zu finden, Flaschen zu sammeln, auf Feinde zu springen und gegen den Endboss zu kämpfen.",
+	"Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.": "Aufgabenmanager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mithilfe von Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu.",
+	"A simple Jump-and-Run game based on an object-oriented approach. Help Carlos to find coins, collect bottles, jump on enemies and fight the endboss.": "Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Carlos, Münzen zu finden, Flaschen zu sammeln, auf Feinde zu springen und gegen den Endboss zu kämpfen.",
 	"My portfolio presented in an alternative style and different code implementation.": "Mein Portfolio in einem alternativen Stil und mit einer anderen Code-Implementierung präsentiert.",
-	"Pokedex project with fetched API. Click on the cards to see more information.": 
-	"Pokedex-Projekt mit abgerufener API. Klicke auf die Karten, um weitere Informationen zu sehen.",
+	"Pokedex project with fetched API. Click on the cards to see more information.": "Pokedex-Projekt mit abgerufener API. Klicke auf die Karten, um weitere Informationen zu sehen.",
 	"My Skills": "Meine Skills",
-	"I have gained experience in building projects with various front end technologies and concepts. My commitment to continuous learning remains steadfast, and I am currently delving into the realm of CMS (Wordpress) and pursuing a PHP course, while also enhancing my proficiency in JavaScript, Angular, TypeScript, and more.": "Ich habe Erfahrung im Aufbau von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt. Mein Engagement für kontinuierliches Lernen bleibt bestehen, derzeit erkunde ich die Welt des CMS, insbesondere WordPress, und absolviere einen PHP-Kurs. Gleichzeitig erweitere ich meine Kenntnisse in JavaScript, Angular, TypeScript und anderen relevanten Technologien."
+	"I have gained experience in building projects with various front end technologies and concepts. My commitment to continuous learning remains steadfast, and I am currently delving into the realm of CMS (Wordpress) and pursuing a PHP course, while also enhancing my proficiency in JavaScript, Angular, TypeScript, and more.": "Ich habe Erfahrung im Aufbau von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt. Mein Engagement für kontinuierliches Lernen bleibt bestehen, derzeit erkunde ich die Welt des CMS, insbesondere WordPress, und absolviere einen PHP-Kurs, während ich gleichzeitig meine Kenntnisse in JavaScript, Angular, TypeScript und mehr vertiefe."
 }

@@ -129,15 +129,17 @@ h1 {
   }
 }
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 450px) {
   h1 {
     font-size: 55px;
     margin-top: -30px;
   }
+}
 
-  .main-container {
-    margin-top: -70px;
-  }
+@media screen and (max-width: 395px) {
+ .main-container {
+  margin-top: -70px;
+ }
 }
 
 
