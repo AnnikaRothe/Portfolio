@@ -1,4 +1,4 @@
-.footer {
+footer {
   position: absolute;
   left: 0;
   right: 0;
@@ -82,7 +82,7 @@
 
 
 @media screen and (max-width: 800px) {
-  .footer {
+  footer {
     display: flex;
     justify-content: space-between;
     flex-direction: column;

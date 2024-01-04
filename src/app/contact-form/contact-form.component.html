@@ -2,16 +2,17 @@
   <form (submit)="sendMail()" ngNativeValidate #myForm>
 
     <label for="name">{{ 'Name' | translate }}</label>
-    <input required class="input-field" style="height: 30px;" type="text" placeholder="{{ 'Name' | translate }}" #nameField id="name">
+    <input required aria-required="true" class="input-field" style="height: 30px;" type="text" placeholder="{{ 'Name' | translate }}" #nameField id="name">
 
     <label for="email">{{ 'Email' | translate }}</label>
-    <input required class="input-field" style="height: 30px;" type="email" placeholder="{{ 'Email' | translate }}" #emailField id="email">
+    <input required aria-required="true" class="input-field" style="height: 30px;" type="email" placeholder="{{ 'Email' | translate }}" #emailField id="email">
 
     <label for="message">{{ 'Message' | translate }}</label>
-    <textarea required class="input-field" [placeholder]="'Message' | translate" #messageField id="message" name="" cols="30" rows="10"></textarea>
+    <textarea required aria-required="true" class="input-field" [placeholder]="'Message' | translate" #messageField id="message" name="" cols="30" rows="10"></textarea>
 
     <div class="button-container" [class.expanded]="isButtonExpanded">
       <button #sendButton>{{ isMessageSent ? 'Message sent!' : 'Send message' | translate }}</button>
     </div>
   </form>
 </div>
+
