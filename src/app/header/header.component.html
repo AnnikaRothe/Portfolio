@@ -7,8 +7,8 @@
       href="#portfolio">Portfolio</a>
       <a translate [ngClass]="{'active': activeLink === 'contact'}" (click)="setActiveLink('contact')" href="#contact"> <span translate>Contact</span></a>
       <div class="language-container">
-      <a class="exclude-hover" (click)="translate.use('en');">EN</a> <span class="span-container display-flex">|</span>
-      <a class="exclude-hover" (click)="translate.use('de');">DE</a>
+      <a role="button" class="exclude-hover" (click)="translate.use('en');">EN</a> <span class="span-container display-flex">|</span>
+      <a role="button" class="exclude-hover" (click)="translate.use('de');">DE</a>
     </div>
   </nav>
 </div>
