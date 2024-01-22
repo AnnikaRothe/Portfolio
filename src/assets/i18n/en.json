@@ -3,15 +3,8 @@
 	"puzzle piece": "",
 	"About me": "About me",
 	"During my training as a frontend developer, I independently or collaboratively crafted various projects. The daily routine of a developer was already experienced, involving regular calls, meeting deadlines, conducting code reviews, and both team and individual work. I am eager to apply these experiences as I transition into the role of a Junior Web Developer, contributing to dynamic projects and the success of a collaborative team.": "During my training as a frontend developer, I independently or collaboratively crafted various projects. The daily routine of a developer was already experienced, involving regular calls, meeting deadlines, conducting code reviews, and both team and individual work. I am eager to apply these experiences as I transition into the role of a Junior Web Developer, contributing to dynamic projects and the success of a collaborative team.",
-	"This portfolio was programmed using Angular, TypeScript and SCSS.": "This portfolio was programmed using Angular, TypeScript and SCSS.",
+	"This portfolio was programmed using Angular, TypeScript, and SCSS. I am working on making the website more accessible step by step.": "This portfolio was programmed using Angular, TypeScript, and SCSS. I am working on making the website more accessible step by step.",
 	"You can find more projects on my GitHub page. Many of them were for practice and therefore are not included in this portfolio.": "You can find more projects on my GitHub page. Many of them were for practice and therefore are not included in this portfolio.",
-	"Skip to header": "Skip to header",
-	"Skip to I am section": "Skip to I am section",
-	"Skip to About me section": "Skip to About me section",
-	"Skip to Portfolio section": "Skip to Portfolio section",
-	"Skip to Skills section": "Skip to Skills section",
-	"Skip to Contact section": "Skip to Contact section",
-	"Skip to footer": "Skip to footer",
 	"Name": "Name",
 	"Email": "Email",
 	"Message": "Message",
@@ -37,5 +30,5 @@
 	"My portfolio presented in an alternative style and different code implementation.": "My portfolio presented in an alternative style and different code implementation.",
 	"Pokedex project with fetched API. Click on the cards to see more information.": "Pokedex project with fetched API. Click on the cards to see more information.",
 	"My Skills": "My Skills",
-	"I have gained experience in building projects with various front end technologies and concepts. My commitment to continuous learning remains steadfast, and I am currently delving into the realm of CMS (Wordpress) and pursuing a PHP course, while also enhancing my proficiency in JavaScript, Angular, TypeScript, and more.": "I have gained experience in building projects with various front end technologies and concepts. My commitment to continuous learning remains steadfast, and I am currently delving into the realm of CMS (Wordpress) and pursuing a PHP course, while also enhancing my proficiency in JavaScript, Angular, TypeScript, and more."
+	"I have gained experience in building projects with various front end technologies and concepts. My commitment to continuous learning remains steadfast. I am currently delving into the realm of CMS (WordPress) and web accessibility while also enhancing my proficiency in JavaScript, Angular, TypeScript, and more.": "I have gained experience in building projects with various front end technologies and concepts. My commitment to continuous learning remains steadfast. I am currently delving into the realm of CMS (WordPress) and web accessibility while also enhancing my proficiency in JavaScript, Angular, TypeScript, and more."
 }

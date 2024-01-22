@@ -2,7 +2,7 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  min-height: 200px;
+  min-height: 150px;
   border-top: 1px solid #70e61c73;
   display: flex;
   justify-content: space-between;
@@ -17,29 +17,28 @@ footer {
 
 .logo {
   width: 100px;
-  height: 45px;
-  border: 2px solid #21c604;
-  border-radius: 5px;
+  margin-left: 50px;
+  transition: transform 0.3s;
 
   &:hover {
-    box-shadow: 0 0 5px #21c604;
     cursor: pointer;
+    transform: scale(1.07); 
   }
 }
 
-.logo-imprint {
+
+.copyright-privacy {
   display: flex;
+  align-items: center;
   flex-direction: column;
 
   a {
-    margin-left: 52px;
-    margin-top: 0px;
     text-decoration: none;
     color: #fff;
+    font-size: 20px;
 
     &:hover {
-      color: #21c604;
-      text-decoration: 2px underline #9747ff;
+     text-decoration: 2px underline #9747ff;
     }
   }
 }

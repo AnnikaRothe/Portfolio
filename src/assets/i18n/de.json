@@ -3,15 +3,8 @@
 	"puzzle piece": "Puzzlestück",
 	"About me": "Über mich",
 	"During my training as a frontend developer, I independently or collaboratively crafted various projects. The daily routine of a developer was already experienced, involving regular calls, meeting deadlines, conducting code reviews, and both team and individual work. I am eager to apply these experiences as I transition into the role of a Junior Web Developer, contributing to dynamic projects and the success of a collaborative team.": "Während meiner Ausbildung als Frontend-Entwickler habe ich eigenständig oder in Zusammenarbeit an verschiedenen Projekten gearbeitet. Dabei wurde ich mit dem täglichen Ablauf eines Entwicklers vertraut, der regelmäßige Besprechungen, die Einhaltung von Fristen, Code-Reviews sowie Team- und Einzelarbeit umfasste. Diese Erfahrungen möchte ich nun als Junior Webentwickler einbringen und damit zu dynamischen Projekten und dem Erfolg eines kooperativen Teams beitragen.",
-	"This portfolio was programmed using Angular, TypeScript and SCSS.": "Für die Erstellung dieses Portfolios kamen Angular, TypeScript und SCSS zum Einsatz.",
+	"This portfolio was programmed using Angular, TypeScript, and SCSS. I am working on making the website more accessible step by step.": "Dieses Portfolio wurde mit Angular, TypeScript und SCSS programmiert. Schritt für Schritt arbeite ich daran, die Website barrierefreier zu gestalten.",
 	"You can find more projects on my GitHub page. Many of them were for practice and therefore are not included in this portfolio.": "Auf meiner GitHub-Seite sind weitere Projekte zu finden. Viele davon dienten Übungszwecken und sind daher nicht in diesem Portfolio enthalten.",
-	"Skip to header": "Überspringe zur Kopfzeile",
-	"Skip to I am section": "Überspringe zur Ich Bin Sektion",
-	"Skip to About me section": "Überspringe zur Über Mich Sektion",
-	"Skip to Portfolio section": "Überspringe zur Portfolio Sektion",
-	"Skip to Skills section": "Überspringe zur Skills Sektion",
-	"Skip to Contact section": "Überspringe zur Kontakt Sektion",
-	"Skip to footer": "Überspringe zur Fußzeile",
 	"Name": "Name",
 	"Email": "Email",
 	"Message": "Nachricht",
@@ -37,5 +30,5 @@
 	"My portfolio presented in an alternative style and different code implementation.": "Mein Portfolio in einem alternativen Stil und mit einer anderen Code-Implementierung präsentiert.",
 	"Pokedex project with fetched API. Click on the cards to see more information.": "Pokedex-Projekt mit abgerufener API. Klicke auf die Karten, um weitere Informationen zu sehen.",
 	"My Skills": "Meine Skills",
-	"I have gained experience in building projects with various front end technologies and concepts. My commitment to continuous learning remains steadfast, and I am currently delving into the realm of CMS (Wordpress) and pursuing a PHP course, while also enhancing my proficiency in JavaScript, Angular, TypeScript, and more.": "Ich habe Erfahrung im Aufbau von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt. Mein Engagement für kontinuierliches Lernen bleibt bestehen, derzeit erkunde ich die Welt des CMS, insbesondere WordPress, und absolviere einen PHP-Kurs, während ich gleichzeitig meine Kenntnisse in JavaScript, Angular, TypeScript und mehr vertiefe."
+	"I have gained experience in building projects with various front end technologies and concepts. My commitment to continuous learning remains steadfast. I am currently delving into the realm of CMS (WordPress) and web accessibility while also enhancing my proficiency in JavaScript, Angular, TypeScript, and more.": "Ich habe Erfahrungen im Aufbau von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt. Mein Engagement für kontinuierliches Lernen bleibt bestehen. Derzeit tauche ich in die Welt von Content Management Systemen (CMS), insbesondere WordPress, und Barrierefreiheit im Web ein, während ich gleichzeitig meine Kenntnisse in JavaScript, Angular, TypeScript und weiteren Technologien vertiefe."
 }

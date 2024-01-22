@@ -11,14 +11,14 @@
   z-index: 2;
  
   img {
-    width: 120px;
-    border: 2px solid #21c604;
-    border-radius: 5px;
+    width: 100px;
     margin-left: 50px;
-   
-     &:hover {
-      box-shadow: 0 0 10px #21c604,
-     }
+    transition: transform 0.3s; 
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.07); 
+    }
   }
 
   nav {

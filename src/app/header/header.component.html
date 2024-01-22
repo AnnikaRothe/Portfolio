@@ -1,14 +1,17 @@
 <div class="header">
-  <a href="#i-am"><img src="./assets/img/logo.jpg" alt="Logo"></a>
+  <a href="#i-am"><img src="./assets/img/logo.png" alt="Logo"></a>
   <nav>
-    <a translate [ngClass]="{'active': activeLink === 'aboutMe'}" (click)="setActiveLink('aboutMe')" href="#aboutMe">About Me</a>
-    <a  [ngClass]="{'active': activeLink === 'skills'}" (click)="setActiveLink('skills')" href="#skills">Skills</a>
+    <a translate [ngClass]="{'active': activeLink === 'aboutMe'}" (click)="setActiveLink('aboutMe')"
+      href="#aboutMe">About Me</a>
+    <a [ngClass]="{'active': activeLink === 'skills'}" (click)="setActiveLink('skills')" href="#skills">Skills</a>
     <a [ngClass]="{'active': activeLink === 'portfolio'}" (click)="setActiveLink('portfolio')"
       href="#portfolio">Portfolio</a>
-      <a translate [ngClass]="{'active': activeLink === 'contact'}" (click)="setActiveLink('contact')" href="#contact"> <span translate>Contact</span></a>
-      <div class="language-container">
-      <a role="button" class="exclude-hover" (click)="translate.use('en');">EN</a> <span class="span-container display-flex">|</span>
-      <a role="button" class="exclude-hover" (click)="translate.use('de');">DE</a>
+    <a translate [ngClass]="{'active': activeLink === 'contact'}" (click)="setActiveLink('contact')" href="#contact">
+      <span translate>Contact</span></a>
+    <div class="language-container">
+      <a role="button deutsch" class="exclude-hover" (click)="translate.use('de');">DE</a>
+      <span class="span-container display-flex">|</span>
+      <a role="button english" class="exclude-hover" (click)="translate.use('en');">EN</a>
     </div>
   </nav>
 </div>
@@ -24,7 +27,8 @@
   <a (click)="scrollToSection('portfolio')">Portfolio</a>
   <a translate (click)="scrollToSection('contact')">Contact</a>
   <div class="language-container">
-    <a (click)="translate.use('en');">EN</a> <span class="span-container">|</span>
     <a (click)="translate.use('de');">DE</a>
+     <span class="span-container">|</span>
+     <a (click)="translate.use('en');">EN</a>
   </div>
 </div>
