@@ -1,13 +1,14 @@
-<div class="header">
-  <a href="#i-am"><img src="./assets/img/logo.png" alt="Logo"></a>
+<div id="header" class="header">
+  <a href="#i-am" role="button">
+    <img src="./assets/img/logo.png" alt="Mein Logo. Ein Laptop mit einem Baum und meinen Initialien">
+  </a>
   <nav>
-    <a translate [ngClass]="{'active': activeLink === 'aboutMe'}" (click)="setActiveLink('aboutMe')"
-      href="#aboutMe">About Me</a>
-    <a [ngClass]="{'active': activeLink === 'skills'}" (click)="setActiveLink('skills')" href="#skills">Skills</a>
-    <a [ngClass]="{'active': activeLink === 'portfolio'}" (click)="setActiveLink('portfolio')"
-      href="#portfolio">Portfolio</a>
-    <a translate [ngClass]="{'active': activeLink === 'contact'}" (click)="setActiveLink('contact')" href="#contact">
-      <span translate>Contact</span></a>
+    <a href="#aboutMe" translate [ngClass]="{'active': activeLink === 'aboutMe'}" (click)="setActiveLink('aboutMe')">About Me</a>
+    <a href="#skills" [ngClass]="{'active': activeLink === 'skills'}" (click)="setActiveLink('skills')">Skills</a>
+    <a href="#portfolio" [ngClass]="{'active': activeLink === 'portfolio'}" (click)="setActiveLink('portfolio')">Portfolio</a>
+    <a href="#contact" translate [ngClass]="{'active': activeLink === 'contact'}" (click)="setActiveLink('contact')">
+      <span translate>Contact</span>
+    </a>
     <div class="language-container">
       <a role="button deutsch" class="exclude-hover" (click)="translate.use('de');">DE</a>
       <span class="span-container display-flex">|</span>
@@ -15,6 +16,7 @@
     </div>
   </nav>
 </div>
+
 
 <div (click)="openMiniMenu()">
   <img class="display-none burger-menu" src="./assets/img/burger.png" alt="Menu">

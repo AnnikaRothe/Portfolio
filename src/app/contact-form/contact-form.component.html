@@ -1,10 +1,13 @@
 <div class="form-container">
   <form (submit)="sendMail()" ngNativeValidate #myForm>
 
+    <label for="name" class="label-hidden">{{ 'Name' | translate }}</label>
     <input required aria-required="true" class="input-field" style="height: 30px;" type="text" placeholder="{{ 'Name' | translate }}" #nameField id="name">
 
+    <label for="email" class="label-hidden">{{ 'Email' | translate }}</label>
     <input required aria-required="true" class="input-field" style="height: 30px;" type="email" placeholder="{{ 'Email' | translate }}" #emailField id="email">
 
+    <label for="message" class="label-hidden">{{ 'Message' | translate }}</label>
     <textarea required aria-required="true" class="input-field" [placeholder]="'Message' | translate" #messageField id="message" name="" cols="30" rows="10"></textarea>
 
     <div class="button-container" [class.expanded]="isButtonExpanded">
@@ -12,4 +15,5 @@
     </div>
   </form>
 </div>
+
 

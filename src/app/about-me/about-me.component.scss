@@ -4,11 +4,10 @@
   align-items: center;
   background-color: #1D1D1D;
   border-bottom: 1px solid rgb(60, 67, 58);
-  margin-top: 50px;
   padding: 20px;
 }
 
-h1 {
+h2 {
   margin-top: -30px;
   font-size: 90px;
   font-weight: bold;
@@ -51,28 +50,23 @@ h1 {
   }
 }
 
-@media screen and (max-width: 1400px) {
-  .main-container {
-    margin-top: 0;
-  }
-}
 
 @media screen and (max-width: 1145px) {
   .info-container p {
     margin-right: 5px;
   }
 
-  h1 {
+  h2 {
     margin-top: -50px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .main-container {
     margin-top: 50px;
   }
 
-  h1 {
+  h2 {
     margin-top: -60px;
   }
 }
@@ -85,14 +79,13 @@ h1 {
     flex-direction: column;
   }
 
-  h1 {
+  h2 {
+    margin-top: -50px;
     font-size: 80px;
-    margin-top: -100px;
   }
 
   .container-left {
     width: 100%;
-    margin-top: -30px;
   }
 
   .container-right {
@@ -111,13 +104,13 @@ h1 {
 }
 
 @media screen and (max-width: 760px) {
-  h1 {
+  h2 {
     margin-top: -80px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  h1 {
+  h2 {
     margin-top: -60px;
   }
 
@@ -129,17 +122,16 @@ h1 {
   }
 }
 
-@media screen and (max-width: 450px) {
-  h1 {
-    font-size: 55px;
-    margin-top: -30px;
-  }
-}
 
 @media screen and (max-width: 395px) {
  .main-container {
   margin-top: -70px;
  }
+
+ h2 {
+  margin-top: -50px;
+  font-size: 55px;
+}
 }
 
 

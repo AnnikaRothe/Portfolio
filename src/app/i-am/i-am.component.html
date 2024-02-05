@@ -1,24 +1,28 @@
-<div class="main-container" id="i-am">
+<div class="main-container">
   <div class="background-image-container"></div>
 
   <div class="container-left">
-    <span role="heading" class="name">Annika Rothe </span> <br>
-    <span role="heading" class="job">Frontend Developer</span>
+    <h1 class="name">Annika Rothe </h1> <br>
+    <h2 class="job">Frontend Developer</h2>
     <div class="button-container">
-      <a href="https://drive.google.com/file/d/1nkgoLFf75ME4z1NdXsGIHO-YckVk3LN6/view?usp=sharing" target="_blank" [attr.aria-label]=" 'CV opens in a new tab' | translate">
-        <button class="download-button">CV</button>
+      <a href="https://drive.google.com/file/d/1nkgoLFf75ME4z1NdXsGIHO-YckVk3LN6/view?usp=sharing" target="_blank"
+        [attr.aria-label]=" 'Curriculum, opens in a new tab' | translate">
+        <button class="btn" translate> Curriculum
+        </button>
+
       </a>
-      <a href="https://drive.google.com/file/d/1E0GROYQMIBEIsBE6UKImgMnPpkGu_E17/view?usp=sharing" target="_blank" [attr.aria-label]=" 'certificate opens in a new tab' | translate">
-        <button translate class="download-button">Certificate</button>
+      <a href="https://drive.google.com/file/d/1E0GROYQMIBEIsBE6UKImgMnPpkGu_E17/view?usp=sharing" target="_blank"
+        [attr.aria-label]=" 'Certificates, , opens in a new tab' | translate">
+        <button class="btn" translate>Certificates
+        </button>
       </a>
     </div>
   </div>
 
   <div class="container-right">
-    <img class="me" src="./assets/img/Bewerbung1.png" alt="{{ 'me' | translate }}">
-    <div id="aboutMe"></div>
-    <img class="flow" src="./assets/img/flow2.png" alt="{{ 'Decoration image called flow' | translate }}">
-  </div>
-  <div id="aboutMe"></div>
+    <img class="me" src="./assets/img/framedMe.png" alt="{{ 'me' | translate }}">
+    
+    <img id="aboutMe" class="flow" src="./assets/img/flow.png" alt="{{ 'Decoration image called flow' | translate }}">
+  </div> 
   <img class="scroll-down" src="./assets/img/scrollDown.png" alt="{{ 'Scroll down' | translate }}">
 </div>

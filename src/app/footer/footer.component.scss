@@ -10,8 +10,10 @@ footer {
   margin-top: 100px;
   background-color: #1D1D1D;
 
-  p {
-    font-size: 25px;
+  h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 10px;
   }
 }
 
@@ -80,14 +82,14 @@ footer {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   footer {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
   
-    p {
+    h4 {
       font-size: 15px;
     }
   }
@@ -101,20 +103,8 @@ footer {
     margin-bottom: 20px;
   }
 
-  .logo-imprint {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    a {
-     margin-left: 0px;
-      margin-top: 10px;
-      text-decoration: none;
-      color: #fff;
-  
-      &:hover {
-        color: #21c604;
-      }
-    }
-  }
+ .copyright-privacy {
+   margin-left: 20px;
+   margin-bottom: 10px;
+ }
 }

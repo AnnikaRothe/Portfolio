@@ -9,7 +9,6 @@ body {
   background-color: #1D1D1D;
 }
 
-
 .button {
   margin-top: -150px;
   margin-left: 620px;
@@ -29,5 +28,34 @@ body {
   }
 }
 
+.skip-link {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+#wcb.carbonbadge {
+  --b1: #21c604 !important;
+  --b2: #21c604 !important;
+  font-size: 13px !important;
+  text-align: center;
+  color: black !important;
+  line-height: 1.15;
+  margin-right: 10px;
+}
 
 
+@media screen and (max-width: 850px) {
+  #wcb.carbonbadge {
+    margin-right: 0;
+  }
+}
